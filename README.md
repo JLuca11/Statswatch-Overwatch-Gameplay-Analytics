@@ -61,8 +61,7 @@ The dataset is still incomplete, and there are gameplay elements we have not yet
 
 ### Computer Vision Example
 
-**[SCREENSHOT PLACEHOLDER — Insert annotated gameplay screenshot showing CV detections, e.g. payload progress, timer, score, etc.]**
-
+![CV Screenshot](Photos/roi_overview.png)
 *Example of objective and game-state information being extracted directly from gameplay footage.*
 
 ---
@@ -90,9 +89,8 @@ The current team-fight segmentation system is an early implementation using a **
 
 ### Team-Fight Segmentation Example
 
-**[SCREENSHOT PLACEHOLDER — Insert screenshot/visualization showing match timeline divided into team fights]**
-
-*Early visualization of the team-fight segmentation process.*
+![Team-Fight Segmentation](Photos/team-fight%20segmentation.jpg)
+*Very early visualization of the team-fight segmentation process used for verification rather than final visualization*
 
 ---
 
@@ -122,13 +120,11 @@ The UX/UI brings the data, computer vision, and machine-learning components toge
 
 ### Current UX/UI
 
-**[SCREENSHOT PLACEHOLDER — Insert best dashboard screenshot]**
-
+![Dashboard](Photos/statswatch-dashboard.png)
 *Current dashboard design. The interface is actively evolving alongside the underlying data and analytics capabilities.*
 
-**[SCREENSHOT PLACEHOLDER — Insert second dashboard/page screenshot]**
-
-*Additional view showing current analytics or navigation design.*
+![Role Overview](Photos/role-overview.png)
+*Additional view showing current analytics design.*
 
 ---
 
@@ -227,8 +223,6 @@ The combined gameplay dataset can then be used to identify the beginning and end
 The current implementation uses a **Gaussian mixture model** as an initial approach to identifying team-fight segments from the available gameplay signals.
 
 This component is still in an early stage and will evolve as additional data becomes available and the segmentation approach is refined.
-
-**[SCREENSHOT PLACEHOLDER — Insert team-fight timeline/model output]**
 
 ---
 
@@ -364,35 +358,6 @@ As development continues, I will also be working on:
 
 ---
 
-# Screenshots & Development Progress
-
-The following screenshots show the current state of the project. Because Statswatch is actively being developed, the interface and analytical outputs are expected to change significantly over time.
-
-## Dashboard
-
-**[SCREENSHOT PLACEHOLDER]**
-
-*Current dashboard / primary analytics view.*
-
-## Objective-Level Analysis
-
-**[SCREENSHOT PLACEHOLDER]**
-
-*Current concept for analyzing performance by map objective and game state.*
-
-## Team-Fight Analysis
-
-**[SCREENSHOT PLACEHOLDER]**
-
-*Early visualization of team-fight segmentation and fight-level statistics.*
-
-## Computer Vision
-
-**[SCREENSHOT PLACEHOLDER]**
-
-*Example of objective and game-state information extracted from gameplay footage.*
-
----
 
 # Future Direction
 
