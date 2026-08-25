@@ -107,13 +107,21 @@ With analysis spanning matches, maps, objectives, team fights, and individual ev
 The goal is to create a path from:
 
 **"How did I perform?"**
+
 ↓
+
 **"Where did I struggle?"**
+
 ↓
+
 **"What happened at that objective?"**
+
 ↓
+
 **"What happened during that team fight?"**
+
 ↓
+
 **"What specifically led to the outcome?"**
 
 The UX/UI brings the data, computer vision, and machine-learning components together into a single experience, giving competitive players and teams both **clarity at a glance and the ability to dive deep when needed**.
@@ -258,13 +266,21 @@ This allows users to move from a broad observation to the specific situations th
 For example:
 
 > **"We consistently lose fights on King's Row Point A."**
+>
 > ↓
+>
 > **"Which matches contributed to this pattern?"**
+>
 > ↓
+>
 > **"What happened during those fights?"**
+>
 > ↓
+>
 > **"Who was picked first?"**
+>
 > ↓
+>
 > **"What was the objective state?"**
 
 ### An Evolving UX Direction
