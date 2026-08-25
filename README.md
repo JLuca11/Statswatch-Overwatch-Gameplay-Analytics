@@ -178,7 +178,7 @@ Different visual signals require different approaches.
 
 Used to identify visual elements such as:
 
-* Score
+* Scores
 * Robot type
 * Other consistent game-state elements
 
