@@ -1,10 +1,10 @@
-# Overstats — Overwatch Gameplay Analytics
+# Statswatch — Overwatch Gameplay Analytics
 
 > 🚧 **Work in Progress**
 
-Overstats is a gameplay analytics platform designed for competitive Overwatch players and teams. The platform combines existing gameplay telemetry with **computer vision** and **machine learning** to create a richer, more granular view of match performance.
+Statswatch is a gameplay analytics platform designed for competitive Overwatch players and teams. The platform combines existing gameplay telemetry with **computer vision** and **machine learning** to create a richer, more granular view of match performance.
 
-Unlike traditional Overwatch analytics, Overstats is designed to analyze gameplay not only at the match and map level, but also at the **objective and individual team-fight level**.
+Unlike traditional Overwatch analytics, Statswatch is designed to analyze gameplay not only at the match and map level, but also at the **objective and individual team-fight level**.
 
 ---
 
@@ -34,17 +34,17 @@ However, even this richer telemetry leaves important gaps. Information that can 
 
 is not fully available through GEP.
 
-Overstats attempts to close some of these gaps by combining telemetry with information extracted directly from gameplay footage.
+Statswatch attempts to close some of these gaps by combining telemetry with information extracted directly from gameplay footage.
 
 ---
 
-# What Makes Overstats Different?
+# What Makes Statswatch Different?
 
-Overstats focuses on two major capabilities that expand the granularity of Overwatch analysis.
+Statswatch focuses on two major capabilities that expand the granularity of Overwatch analysis.
 
 ## 1. Computer Vision-Based Data Extraction
 
-Instead of relying solely on available telemetry, Overstats uses **computer vision applied directly to gameplay footage** to recover information that existing data sources do not provide.
+Instead of relying solely on available telemetry, Statswatch uses **computer vision applied directly to gameplay footage** to recover information that existing data sources do not provide.
 
 Current computer-vision systems extract information such as:
 
@@ -69,9 +69,9 @@ The dataset is still incomplete, and there are gameplay elements we have not yet
 
 ## 2. Team-Fight Segmentation
 
-Having more data is only part of the problem. Overstats also introduces a new way to analyze that data by using **machine learning to segment matches into individual team fights**.
+Having more data is only part of the problem. Statswatch also introduces a new way to analyze that data by using **machine learning to segment matches into individual team fights**.
 
-Instead of treating an entire match or map as the primary unit of analysis, Overstats can break gameplay down into individual engagements:
+Instead of treating an entire match or map as the primary unit of analysis, Statswatch can break gameplay down into individual engagements:
 
 **Match → Map → Objective → Team Fight → Events**
 
@@ -102,7 +102,7 @@ More data and more granular analysis create another challenge:
 
 > **How do you make all of this information useful without overwhelming the user?**
 
-Overstats' UX/UI is designed to bridge that gap.
+Statswatch' UX/UI is designed to bridge that gap.
 
 With analysis spanning matches, maps, objectives, team fights, and individual events, users need an intuitive high-level view while still having the ability to progressively **drill down into the details**.
 
@@ -134,7 +134,7 @@ The UX/UI brings the data, computer vision, and machine-learning components toge
 
 # How It Works
 
-At a high level, Overstats combines multiple data sources and processing stages:
+At a high level, Statswatch combines multiple data sources and processing stages:
 
 ```text
                     Gameplay Video
@@ -236,7 +236,7 @@ This component is still in an early stage and will evolve as additional data bec
 
 The richness of the underlying dataset creates an important product and UX challenge: **how should competitive players and teams actually interact with this level of information?**
 
-Overstats is designed to support two complementary approaches to analysis.
+Statswatch is designed to support two complementary approaches to analysis.
 
 ### Longitudinal Analysis
 
@@ -255,7 +255,7 @@ This provides a higher-level view of **recurring strengths, weaknesses, and tren
 
 Longitudinal patterns are only useful if users can understand what caused them.
 
-Overstats therefore also supports progressively drilling into the underlying gameplay:
+Statswatch therefore also supports progressively drilling into the underlying gameplay:
 
 **Longitudinal Pattern → Match → Map → Objective → Team Fight → Events**
 
@@ -287,7 +287,7 @@ The goal is not simply to expose every available statistic. It is to create a cl
 
 > 🚧 **Active Development**
 
-Overstats is a collaborative project and is still under development. The architecture, data pipeline, machine-learning models, and UX/UI are continuing to evolve as we expand the available data and refine how it is analyzed and presented.
+Statswatch is a collaborative project and is still under development. The architecture, data pipeline, machine-learning models, and UX/UI are continuing to evolve as we expand the available data and refine how it is analyzed and presented.
 
 The screenshots and functionality shown in this repository represent the **current development state, not the final product**.
 
@@ -311,7 +311,7 @@ The screenshots and functionality shown in this repository represent the **curre
 
 # My Contributions
 
-Overstats is a **collaborative project**, with contributors working across computer vision, machine learning, data engineering, analytics, and product development.
+Statswatch is a **collaborative project**, with contributors working across computer vision, machine learning, data engineering, analytics, and product development.
 
 My work so far has focused primarily on **computer vision and UX/UI**, with additional data engineering and machine-learning contributions planned as development progresses.
 
@@ -366,7 +366,7 @@ As development continues, I will also be working on:
 
 # Screenshots & Development Progress
 
-The following screenshots show the current state of the project. Because Overstats is actively being developed, the interface and analytical outputs are expected to change significantly over time.
+The following screenshots show the current state of the project. Because Statswatch is actively being developed, the interface and analytical outputs are expected to change significantly over time.
 
 ## Dashboard
 
@@ -396,13 +396,13 @@ The following screenshots show the current state of the project. Because Oversta
 
 # Future Direction
 
-The long-term goal of Overstats is to move Overwatch analysis beyond traditional match-level statistics.
+The long-term goal of Statswatch is to move Overwatch analysis beyond traditional match-level statistics.
 
 Rather than asking only:
 
 > **"What happened in this match?"**
 
-Overstats aims to make it possible to ask:
+Statswatch aims to make it possible to ask:
 
 > **"What happened at this objective, during this team fight, and what contributed to the outcome?"**
 
